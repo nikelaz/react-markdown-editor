@@ -1,0 +1,13 @@
+.mainLayout {
+  display: flex;
+  height: 100vh;
+}
+
+.mainLayout__col {
+  flex: 1;
+  padding: 1.875rem;
+}
+
+.mainLayout__col:not(:last-child) {
+  border-right: 3px solid var(--dark);
+}

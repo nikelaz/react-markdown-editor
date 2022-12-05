@@ -1,0 +1,17 @@
+.editor__wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.editor {
+  width: 100%;
+  flex-grow: 1;
+  color: #fff;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  appearance: none;
+  background: none;
+  resize: none;
+}
